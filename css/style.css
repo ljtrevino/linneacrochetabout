@@ -1,0 +1,195 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+p{
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+
+
+header {
+    height: 380px;
+     background: url("https://s32.postimg.org/imm0d4a0l/blah.jpg") no-repeat center center fixed; 
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+header .content {
+    padding: 30px;
+    text-align: center;
+}
+#triggers {
+    position: absolute;
+    height: 100%;
+}
+#triggers div {
+    position: absolute;
+}
+#triggers #t1 {
+    top: 0;
+}
+#triggers #t2 {
+    top: 100%;
+}
+#triggers #t3 {
+    top: 200%;
+}
+#triggers #t4 {
+    top: 300%;
+}
+#pinContainer {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.panel {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+.panel .content {
+    padding: 15px;
+    color: #fff;
+}
+.panel .additionalContent {
+    top: 100%;
+    position: absolute;
+}
+.blue {
+  background-color: #029EC7;
+}
+.turqoise {
+  background-color: #1FC593;
+}
+.green {
+  background-color: #71FB67;
+}
+.bordeaux {
+  background-color: #ffd633;
+}
+footer .content {
+    padding: 5px;
+    text-align: center;
+}
+
+.line4
+{
+	stroke-dasharray:20000;
+	stroke-dashoffset:20000;
+	animation:dash 3s linear forwards;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@-webkit-keyframes appearnow {
+  0%   { opacity: 0;
+  visibility:visible;}
+  100% { opacity: 1;
+    visibility:visible;
+  }
+}
+@-moz-keyframes appearnow {
+    0%   { opacity: 0;
+  visibility:visible;}
+  100% { opacity: 1;
+    visibility:visible;
+  }
+}
+@-o-keyframes appearnow {
+   0%   { opacity: 0;
+  visibility:visible;}
+  100% { opacity: 1;
+    visibility:visible;
+  }
+}
+@keyframes appearnow {
+  0%   { opacity: 0;
+  visibility:visible;}
+  100% { opacity: 1;
+    visibility:visible;
+  }
+}
+
+
+
+
+
+.filll
+{
+	animation:fill forwards;
+    visibility:hidden;
+  -webkit-animation: appearnow 0.5s forwards;
+    -webkit-animation-delay: 5s; 
+    animation: appearnow 1s forwards;
+    animation-delay: 2.3s;
+  animation-iteration-count: 1;
+  
+ z-index:-5;
+  
+}
+
+
+.td1 {
+  padding-left:50px;
+   padding-right:50px;
+  padding-top:40px;
+  padding-bottom:20px;
+}
+
+.welcome{
+  line-height: 150%;
+}
+
+.linneacrochet{
+  margin-top:20px;
+}
+
+.encouragement{
+  text-align:center;
+  padding:0px;
+}
+
+.sellsite{
+  width:300px;
+  padding-left:30px;
+  padding-right:30px;
+}
+
+.fontbig{
+  font-size: 40px;
+  padding-top:80px;
+}
+
+.socialmedia{
+  width:200px;
+  padding-left:20px;
+  padding-right:20px;
+  padding-top:100px;
+}
+
+.font20{
+  font-size:25px;
+}
+
+.scale{
+  padding-top:70px;
+  padding-left:20px;
+  transform:scale(1.5);
+}
+
+.sizedown{
+  transform:scale(.6);
+  padding-top:60px;
+}
+
+.topright{
+  transform:scale(0.4) translate(2300px,-1530px);
+  
+}
